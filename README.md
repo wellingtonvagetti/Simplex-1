@@ -6,9 +6,13 @@ Trabalho Sabatine
 
 Dupla
 
-Nome: Maycon Henrique Ferreira Martins RA: 537640
+Nome: Maycon Henrique RA: 537640
 
 Nome: Paulo Sergio RA: 527998
+
+Nome: Tiago Alves RA:  539661
+
+Nome: Wellington dos Santos RA: 541567
 
 Linguagem 	PHP 
 WEB 		Bootstrap, HTML e CSS
