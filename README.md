@@ -4,6 +4,8 @@ http://simplex-bsi.16mb.com/
 
 https://github.com/mahefema/Simplex/wiki
 
+https://github.com/mahefema/Simplex/blob/master/Nota%20de%20%20Liberacao%20PO.docx
+
 Trabalho Sabatine
 
 Dupla
