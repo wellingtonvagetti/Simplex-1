@@ -8,7 +8,7 @@ Nota de Liberacao:  https://github.com/mahefema/Simplex/blob/master/Nota%20de%20
 
 Trabalho Sabatine
 
-Dupla
+Grupo
 
 Nome: Maycon Henrique RA: 537640
 
