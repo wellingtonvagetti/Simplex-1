@@ -8,12 +8,27 @@ Nota de Liberacao:  https://github.com/mahefema/Simplex/blob/master/Nota%20de%20
 
 Trabalho Sabatine
 
-Grupo
+<strong>Grupo</strong>
 
-Nome: Maycon Henrique RA: 537640
-
-Nome: Paulo Sergio RA: 527998
-
-Nome: Tiago Alves RA:  539661
-
-Nome: Wellington dos Santos RA: 541567
+<table style="width:100%">
+  <tr>
+    <td>Nome</td>
+    <td>RA</td> 
+  </tr>
+  <tr>
+    <td>Maycon Henrique Ferreira Martins</td>
+    <td>537640</td> 
+  </tr>
+   <tr>
+    <td>Tiago Alves da Silva</td>
+    <td>539661</td> 
+  </tr>
+  <tr>
+    <td>Paulo Sergio Bonfim Cristanello</td>
+    <td>527998</td> 
+  </tr>
+  <tr>
+    <td>Wellington dos Santos Vaguetti</td>
+    <td>541567</td> 
+  </tr>
+</table>
