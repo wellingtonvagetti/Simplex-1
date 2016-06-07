@@ -5,7 +5,7 @@ require_once('simplex.php');
 $tela = new template;
 $simplex = new Simplex;
 $tela->SetTitle('Método Simplex');
-$tela->SetProjectName('Método Simplex - BSI 5 A/S');
+$tela->SetProjectName('Método Simplex ----------- BSI 5° A/S');
 $conteudo='';
 session_start();
 $tabelafinalinicial = array();

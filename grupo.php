@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Método Simplex</title>
+    <title>BSI 5° A/S</title>
     <link rel="stylesheet" href="estilosimplex.css">
     <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="../jquery.min.js"></script>
@@ -12,13 +12,13 @@
     require('view/template.php');
     $tela = new template;
     $tela->SetTitle('Método Simplex');
-    $tela->SetProjectName('Método Simplex - BSI 5 A/S');
+    $tela->SetProjectName('Pesquisa Operacional --- BSI 5° A/S');
     $tela->ShowTemplate();
   ?>
   
   <body style="background-color:#BBB;">
     <div style="text-align:center;">
-    <h1 style="color:#3BB;">Grupo</h1>
+    <h1 style="color:#0000CD;">Grupo</h1>
     <div>
       <h3><span>Maycon Henrique</span></h3>
       <span>RA: 53764-0</span>

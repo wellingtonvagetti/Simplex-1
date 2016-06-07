@@ -3,7 +3,7 @@
 require('view/template.php');
 $tela = new template;
 $tela->SetTitle('Método Simplex');
-$tela->SetProjectName('Método Simplex - BSI 5 A/S');
+$tela->SetProjectName('Método Simplex ----------- BSI 5° A/S');
 session_start();
 
 //é criado dinimicamente os campos para preennche-los
@@ -27,7 +27,7 @@ if ($_SESSION['objetivo']=='max')
 
 for ($i=1; $i <= $_SESSION['qtdevariaveis']; $i++)
 { 
-	$conteudo=$conteudo.'<input type="number" name="z'.$i.'" size="3" maxlength="3"> X<sub>'.$i.'</sub>';
+	$conteudo=$conteudo.'<input type="number" step="0.001" name="z'.$i.'" size="3" maxlength="4"> X<sub>'.$i.'</sub>';
 	if($i<$_SESSION['qtdevariaveis'])
 	{
 		$conteudo=$conteudo.' + ';
@@ -43,7 +43,7 @@ for ($l=1; $l <= $_SESSION['qtderestricoes']; $l++)
 { 
 	for ($c=1; $c <= $_SESSION['qtdevariaveis'] ; $c++)
 	{ 
-		$conteudo=$conteudo.'<input type="number" name="r'.$l.'_'.$c.'" size="3" maxlength="3"> X<sub>'.$c.'</sub>';
+		$conteudo=$conteudo.'<input type="number" step="0.001" name="r'.$l.'_'.$c.'" size="3" maxlength="4"> X<sub>'.$c.'</sub>';
 		if($c<$_SESSION['qtdevariaveis'])
 		{ 
 			// se nao for a ultima coloca um ponto
@@ -54,7 +54,7 @@ for ($l=1; $l <= $_SESSION['qtderestricoes']; $l++)
 				<select id="relacao" name="relacao'.$l.'">
            			<option value= "<="> <=	</option>
 				</select>
-        		<input type="number" name="resultado'.$l.'" size="3" maxlength="3">
+        		<input type="number" step"0.001" name="resultado'.$l.'" size="3" maxlength="4">
 			';
 		}
 	}

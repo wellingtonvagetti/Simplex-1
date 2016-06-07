@@ -4,7 +4,7 @@ require('view/template.php');
 $tela = new template;
 session_start();
 $tela->SetTitle('Método Simplex');
-$tela->SetProjectName('Método Simplex - BSI 5 A/S');
+$tela->SetProjectName('Método Simplex ----------- BSI 5° A/S');
 
 $conteudo='<h1 style="text-align:center;">Forma Padrão</h1>';
 $conteudo=$conteudo.'<h5 style="text-align:center;">Nesta etapa a fórmula é transformada  na forma padrão e inclui-se as variáveis de folga/excesso.</h5><br><br>';

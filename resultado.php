@@ -5,16 +5,16 @@ require_once('simplex.php');
 $simplex = new Simplex;
 $tela = new template;
 $tela->SetTitle('Método Simplex');
-$tela->SetProjectName('Método Simplex - BSI 5 A/S');
+$tela->SetProjectName('Método Simplex ----------- BSI 5° A/S');
 session_start();
 $etapa = 0;
 $tabela = array();
 $linhaZ = array();
 $conteudo='';
 $qtderepeticoes=1;
-$qtdecolunas = $_SESSION['qtdevariaveis']+$_SESSION['qtderestricoes']+2;	
+$qtdecolunas = $_SESSION['qtdevariaveis'] + $_SESSION['qtderestricoes'] +2 ;	
 $qtdelinhas = $_SESSION['qtderestricoes'] + 2;
-$solucao = 0;
+$solucao = 0 ;
 //0 - otima
 //1 - indeterminada
 //2 - impossivel
