@@ -1,19 +1,15 @@
-# Simplex e Mochila
+# Simplex e Mochila - Pesquisa Operacional
 
-http://simplex-bsi.16mb.com/
-
-https://github.com/mahefema/Simplex/wiki
-
-Nota de Liberacao:  https://github.com/mahefema/Simplex/blob/master/Nota%20de%20%20Liberacao%20PO.docx
-
-Trabalho Sabatine
+<a href="http://simplex-bsi.16mb.com"/>Acessar aplicação Simplex</a>
+<br/>
+<a href="http://simplex-bsi.16mb.com/mochila.html"/>Acessar aplicação Mochila</a>
 
 <strong>Grupo</strong>
 
 <table style="width:100%">
   <tr>
-    <td>Nome</td>
-    <td>RA</td> 
+    <td><strong>Nome</strong></td>
+    <td><strong>RA</strong></td> 
   </tr>
   <tr>
     <td>Maycon Henrique Ferreira Martins</td>
