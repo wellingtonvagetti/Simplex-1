@@ -58,7 +58,9 @@ Trabalho Sabatine
   <li>No projeto Simplex, em casos específicos de execução onde o usuário passa muitas variáveis ou restrições o, a execução pode ter uma demora para sua conclusão.</li>
 <ul>
 
-<strong>3.	DATAS IMPORTANTES</strong>
+<h2>3. DATAS IMPORTANTES</h2>
+
+<strong>DATAS</strong>
 <table style="width:100%">
   <tr>
     <td>Data</td>
