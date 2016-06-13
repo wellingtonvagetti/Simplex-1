@@ -63,7 +63,7 @@ Trabalho Sabatine
 <h4>Segue abaixo as datas importante do desenvolvimento:</h4>
 
 <table style="width:100%">
-  <tr>
+<tr>
     <td>Data</td>
     <td>Evento</td> 
   </tr>
@@ -145,3 +145,104 @@ Trabalho Sabatine
         <li>Android</li>
     	</ul>
     </td>
+</table>
+
+<table style="width:100%">
+  <tr>
+    <td> </td>
+    <td>Tecnologia</td> 
+  </tr>
+  <tr>
+    <td>Linguagem de Programação</td>
+    <td>
+    	<ul>
+    	  <li>PHP</li>
+        <li>JavaScript</li>
+    	</ul>
+    </td>
+  </tr>
+<tr>
+    <tr>
+    <td>Tecnologia WEB</td>
+    <td>
+    	<ul>
+    	  <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+    	</ul>
+    </td>
+  </tr>
+<tr>
+    <td>ID</td>
+    <td>
+    	<ul>
+    	  <li>Sublime Text 2</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+    	</ul>
+    </td>
+  </tr>
+<tr>
+    <td>Servidor WEB</td>
+    <td>
+    	<ul>
+    	  <li>Hostinger</li>
+    	</ul>
+    </td>
+</tr>
+</table>
+
+<h2>5. PROCEDIMENTO E ALTERAÇAO DE CONFIGURAÇÃO DO AMBIENTE</h2>
+
+<p>Projeto foi feito com base em PHP, pelo conhecimento dos membros do grupo.
+Parte visual foi usado HTML, CSS3 e Bootstrap, pela sua fácil adesão e modifição.
+Hospedagem feita no hostinger, por já ter sido usado antes por membros do grupo.</p>
+
+<h2>6. ATIVIDADES REALIZADAS NO PERÍODO</h2>
+
+<h4>Nessa liberação foram contemplados os seguintes itens:</h4>
+
+<table style="width:100%">
+<tr>
+    <td>Cód</td>
+    <td>Título</td>
+    <td>Tarefa</td>
+    <td>Situação</td>
+    <td>Observação</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Maximizar</td> 
+    <td>Montar a Tabela Simplex, e possibilitar o usuário a maximizar modelos de simplex com sistemas lineares.</td>
+    <td>Concluído</td>
+    <td>Apenas restrições de “<=”</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Minimizar</td> 
+    <td>Montar a Tabela Simplex, e possibilitar o usuário a maximizar modelos de simplex com sistemas lineares.</td>
+    <td>Concluído</td>
+    <td>Apenas restrições de “<=”</td>
+  </tr>
+<tr>
+    <td>3</td>
+    <td>Adição de restrições</td> 
+    <td>Possibilitar o usuário a adicionar inputs para maiores números de restrições.</td>
+    <td>Concluído</td>
+    <td></td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Demonstrar passo a passo</td> 
+    <td>Demonstrar ao usuário as alterações na tabela causada pelas iterações do método simplex.</td>
+    <td>Concluído</td>
+    <td></td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Tabela de Sensibilidade</td> 
+    <td>Demonstrar ao usuárioa tabela de sensibilidade.</td>
+    <td>Pendente</td>
+    <td>Conforme orientação do professor, aplicação apresenta resultados incorretos.</td>
+</tr>
+ 
