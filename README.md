@@ -127,7 +127,6 @@ Trabalho Sabatine
         <li>Internet Explorer</li>
         <li>Microsoft Edge</li>
     	</ul>
-    </td>
   </tr>
   <tr>
     <td>Sistema operacional</td>
