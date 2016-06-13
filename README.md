@@ -60,7 +60,8 @@ Trabalho Sabatine
 
 <h2>3. DATAS IMPORTANTES</h2>
 
-<strong>DATAS</strong>
+<h4>Segue abaixo as datas importante do desenvolvimento:</h4>
+
 <table style="width:100%">
   <tr>
     <td>Data</td>
@@ -107,3 +108,63 @@ Trabalho Sabatine
     <td>Liberação versão final.</td> 
   </tr>
 </table>
+
+<h2>4. COMPATIBILIDADE</h2>
+
+<p>Segue abaixo os requisitos</p>
+
+<table style="width:100%">
+  <tr>
+    <td>Requisitos</td>
+    <td>Ferramentas</td> 
+  </tr>
+  <tr>
+    <td>Navegadores Browser:</td>
+    <td>
+    	<ul>
+    	<li>Mozila Firefox</li>
+        <li>Chrome</li>
+        <li>Internet Explorer</li>
+        <li>Microsoft Edge</li>
+    	</ul>
+    </td> 
+  </tr>
+  <tr>
+    <td>20/03</td>
+    <td>Criação das interações e variáveis dinâmicos.</td> 
+  </tr>
+  <tr>
+    <td>26/03</td>
+    <td>Implementação do metodo Maximizar e das variaveis de folga.</td> 
+  </tr>
+  <tr>
+    <td>27/03</td>
+    <td>Definição da regra quem entra e quem sai e linha do pivo divididas pelo pivô.</td> 
+  </tr>
+  <tr>
+    <td>02/04 e 03/04</td>
+    <td>Implementação do metodo Minimizar.</td> 
+  </tr>
+  <tr>
+    <td>09/04 e 10/04</td>
+    <td>Adicionado função de amostragem passo-a-passo.</td> 
+  </tr>
+  <tr>
+    <td>16/04 e 17/04</td>
+    <td>Testes e correção de bugs.</td> 
+  </tr>
+  <tr>
+    <td>14/05</td>
+    <td>Adicionado Análise de Sensibilidade</td> 
+  </tr>
+    <tr>
+    <td>15/05</td>
+    <td>Testes finais.</td> 
+  </tr>
+  <tr>
+    <td>18/05</td>
+    <td>Liberação versão final.</td> 
+  </tr>
+</table>
+
+
