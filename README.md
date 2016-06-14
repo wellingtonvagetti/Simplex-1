@@ -29,13 +29,15 @@
   </tr>
 </table>
 
-<h1>Nota de Liberação: Simplex</h1>
+<h1>Nota de Liberação: Simplex e Mochila</h1>
 
 <h2>INTRODUÇÃO</h2>
 
-<p>Este documento provê uma visão geral da versão do aplicativo Simplex que está sendo liberada. Aqui descreveremos as funcionalidades do aplicativo, bem como seus problemas e limitações conhecidos. Por último são descritas as demandas e os problemas que foram resolvidos para liberação da versão atual.</p>
+<p>Este documento provê uma visão geral da versão do aplicativo Simplex e Mochila que está sendo liberada. Aqui descreveremos as funcionalidades dos aplicativos, bem como seus problemas e limitações conhecidos. Por último são descritas as demandas e os problemas que foram resolvidos para liberação da versão atual.</p>
 
 <h2>1. NOTA DE RELEASE A SER PUBLICADO</h2>
+
+### Simplex
 
 <ul> 
   <li>Funções MIN E MAX</li>
@@ -45,14 +47,25 @@
   <li>Análise de Sensibilidade
 </ul>
 
+### Mochila 
+
+* Capacidade da Mochila
+* Peso e valor de itens
+* Tabela de amostragem
+* Lista do peso e valores de itens
+
 <h2>2. PROBLEMAS CONHECIDOS E LIMITAÇÕES</h2>
 
-<h4>Limitações</h4>
+### Simplex
 
 <ul>
   <li>Necessário ao menos 1 conexão mínima com a internet.</li>
   <li>No projeto Simplex, em casos específicos de execução onde o usuário passa muitas variáveis ou restrições o, a execução pode ter uma demora para sua conclusão.</li>
 <ul>
+
+### Mochila
+
+* Somente valores inteiros são permitidos
 
 <h2>3. DATAS IMPORTANTES</h2>
 
