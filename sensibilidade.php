@@ -98,16 +98,16 @@ for ($coluna=0; $coluna < $qtdecolunas ; $coluna++)
 $deltas = array();
 $lmin = array();
 $lmax = array();
-$minima=9999;
-$maxima=-9999;
+$minima=999999999;
+$maxima=-999999999;
 $aux = 0;
 $aux2= 1;
 
 //calculando  o limite minimo e maximo
 for ($coluna=($_SESSION['qtdevariaveis']+1); $coluna < ($_SESSION['qtdecolunas']-1) ; $coluna++)
 {
-  $minima=9999;
-  $maxima=-9999;
+  $minima=999999999;
+  $maxima=-999999999;
   for ($linha=1; $linha < ($_SESSION['qtdelinhas']-1); $linha++)
   {
     $b = ($tabelafinal[$linha][$_SESSION['qtdecolunas']-1]);
