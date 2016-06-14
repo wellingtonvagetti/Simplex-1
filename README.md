@@ -1,257 +1,92 @@
-# Simplex e Mochila - Pesquisa Operacional
+# NOTA DE LIBERAÇÃO - SIMPLEX E MOCHILA
 
-<a href="http://simplex-bsi.16mb.com"/>Acessar aplicação Simplex</a>
-<br/>
-<a href="http://simplex-bsi.16mb.com/mochila.html"/>Acessar aplicação Mochila</a>
+## Nome dos Itegrantes do Grupo
 
-<strong>Grupo</strong>
+1. Maycon Henrique Ferreira Martins, RA: 537640
+2. Tiago Alves da Silva, RA: 539661
+3. Paulo Sergio Bonfim Cristanello, RA: 527998
+4. Wellington Veguetti, RA: 541567
 
-<table style="width:100%">
-  <tr>
-    <td><strong>Nome</strong></td>
-    <td><strong>RA</strong></td> 
-  </tr>
-  <tr>
-    <td>Maycon Henrique Ferreira Martins</td>
-    <td>537640</td> 
-  </tr>
-   <tr>
-    <td>Tiago Alves da Silva</td>
-    <td>539661</td> 
-  </tr>
-  <tr>
-    <td>Paulo Sergio Bonfim Cristanello</td>
-    <td>527998</td> 
-  </tr>
-  <tr>
-    <td>Wellington dos Santos Vaguetti</td>
-    <td>541567</td> 
-  </tr>
-</table>
+## INTRODUÇÃO
 
-<h1>Nota de Liberação: Simplex e Mochila</h1>
+Este documento provê uma visão geral da versão do aplicativo Simplex e Mochila que está sendo liberada. Aqui descreveremos as funcionalidades do aplicativo, bem como seus problemas e limitações conhecidos. Por último são descritas as demandas e 	os problemas que foram resolvidos para liberação da versão atual.
 
-<h2>INTRODUÇÃO</h2>
+## LINK DE ACESSO A APLICAÇÃO ONLINE
 
-<p>Este documento provê uma visão geral da versão do aplicativo Simplex e Mochila que está sendo liberada. Aqui descreveremos as funcionalidades dos aplicativos, bem como seus problemas e limitações conhecidos. Por último são descritas as demandas e os problemas que foram resolvidos para liberação da versão atual.</p>
+[Acessar Aplicação Simplex](http://simplex-bsi.16mb.com) ou [Mochila](http://simplex-bsi.16mb.com/mochila.html)
 
-<h2>1. NOTA DE RELEASE A SER PUBLICADO</h2>
+### 1. NOTA DE RELEASE A SER PUBLICADO
 
-### Simplex
+Simplex
 
-<ul> 
-  <li>Funções MIN E MAX</li>
-  <li>Não possuir número fixo para variáveis e restrições.</li>
-  <li>Demonstrar tabela da programação dinâmica.Não possuir número fixo de itens.</li>
-  <li>Gerar passo a passo, que mostra todas as iterações necessárias para o resultado final.</li>
-  <li>Análise de Sensibilidade
-</ul>
+* Funções MIN E MAX
+* Não possuir número fixo para variáveis e restrições.
+* Demonstrar tabela da programação dinâmica.Não possuir número fixo de itens.
+* Gerar passo a passo, que mostra todas as iterações necessárias para o resultado final.
+* Análise de Sensibilidade
 
-### Mochila 
+Mochila
 
 * Capacidade da Mochila
 * Peso e valor de itens
 * Tabela de amostragem
 * Lista do peso e valores de itens
 
-<h2>2. PROBLEMAS CONHECIDOS E LIMITAÇÕES</h2>
+### 2. PROBLEMAS CONHECIDOS E LIMITAÇÕES
 
-### Simplex
+* Necessário ao menos 1 conexão mínima com a internet.
+* No projeto Simplex, em casos específicos de execução onde o usuário passa muitas variáveis ou restrições o, a execução pode ter uma demora para sua conclusão.
+		
+### 3. DATAS IMPORTANTES
 
-<ul>
-  <li>Necessário ao menos 1 conexão mínima com a internet.</li>
-  <li>No projeto Simplex, em casos específicos de execução onde o usuário passa muitas variáveis ou restrições o, a execução pode ter uma demora para sua conclusão.</li>
-<ul>
+####Segue abaixo as datas importante do desenvolvimento:
+		
+|Data|Evento|
+|---------------|---------------|
+|19/03|Criação da Interface Gráfica.|
+|20/03|Criação das interações e variáveis dinâmicos.|
+|26/03|Implementação do método Maximizar e das variáveis de folga.|
+|27/03|Definição da regra quem entra e quem sai e linha do pivô divididas pelo pivô.|
+|02/04 e 03/04|Implementação do método Minimizar.|
+|09/04 e 10/04|Adicionado função de amostragem passo-a-passo.|
+|16/04 e 17/04|Testes e correção de bugs.|
+|14/05|Adicionado Análise de Sensibilidade.|
+|15/05|Testes finais.|
+|18/05|Liberação versão final.|
+|01/06|Implementação Mochila|
+|08/06|Adicionado Mochila na aplicação|
+		
+### 4. COMPATIBILIDADE
+		
+Segue abaixo os requisitos:
+		
+|Requisitos|Ferramenta|
+|-----------|---------------|
+|Navegadores|Mozzilla Firefox, Chrome, Internet Explorer e Microsoft Edge|
+|Sistema operacional|Linux e Windows|
+|Dispositivos Móveis|IOS e Android|
 
-### Mochila
+|Tecnologias||
+|-----------|---------------|
+|Linguagem de programação|PHP e JavaScript|
+|Tecnologia WEB|HTML, CSS, Bootstrap|
+|IDE|Sublime Text 2|
+|Servidor Web|Hostinger|
 
-* Somente valores inteiros são permitidos
+### 5. PROCEDIMENTO E ALTERAÇAO DE CONFIGURAÇÃO DO AMBIENTE
 
-<h2>3. DATAS IMPORTANTES</h2>
+Projeto foi feito com base em PHP e JavaScript, pelo conhecimento dos membros do grupo e também para conhecimento. Parte visual foi usado HTML, CSS3 e Bootstrap, pela sua fácil adesão e modificação. Hospedagem feita no Hostinger, por já ter sido usado antes por membros do grupo.
 
-<h4>Segue abaixo as datas importante do desenvolvimento:</h4>
+### 6. ATIVIDADES REALIZADAS NO PERÍODO
 
-<table style="width:100%">
-<tr>
-    <td>Data</td>
-    <td>Evento</td> 
-  </tr>
-  <tr>
-    <td>19/03</td>
-    <td>Criação da Interface Gráfica.</td> 
-  </tr>
-  <tr>
-    <td>20/03</td>
-    <td>Criação das interações e variáveis dinâmicos.</td> 
-  </tr>
-  <tr>
-    <td>26/03</td>
-    <td>Implementação do metodo Maximizar e das variaveis de folga.</td> 
-  </tr>
-  <tr>
-    <td>27/03</td>
-    <td>Definição da regra quem entra e quem sai e linha do pivo divididas pelo pivô.</td> 
-  </tr>
-  <tr>
-    <td>02/04 e 03/04</td>
-    <td>Implementação do metodo Minimizar.</td> 
-  </tr>
-  <tr>
-    <td>09/04 e 10/04</td>
-    <td>Adicionado função de amostragem passo-a-passo.</td> 
-  </tr>
-  <tr>
-    <td>16/04 e 17/04</td>
-    <td>Testes e correção de bugs.</td> 
-  </tr>
-  <tr>
-    <td>14/05</td>
-    <td>Adicionado Análise de Sensibilidade</td> 
-  </tr>
-    <tr>
-    <td>15/05</td>
-    <td>Testes finais.</td> 
-  </tr>
-  <tr>
-    <td>18/05</td>
-    <td>Liberação versão final.</td> 
-  </tr>
-</table>
+Nessa liberação foram contemplados os seguintes itens:
 
-<h2>4. COMPATIBILIDADE</h2>
-
-<p>Segue abaixo os requisitos</p>
-
-<table style="width:100%">
-  <tr>
-    <td>Requisitos</td>
-    <td>Ferramentas</td> 
-  </tr>
-  <tr>
-    <td>Navegadores Browser</td>
-    <td>
-    	<ul>
-    	  <li>Mozila Firefox</li>
-        <li>Chrome</li>
-        <li>Internet Explorer</li>
-        <li>Microsoft Edge</li>
-    	</ul>
-  </tr>
-  <tr>
-    <td>Sistema operacional</td>
-    <td>
-      <ul>
-    	  <li>Linux</li>
-        <li>Windows</li>
-    	</ul>
-    </td> 
-  </tr>
-  <tr>
-    <td>Dispositivos Móveis</td>
-    <td>
-      <ul>
-    	  <li>iOS</li>
-        <li>Android</li>
-    	</ul>
-    </td>
-</table>
-
-<table style="width:100%">
-  <tr>
-    <td> </td>
-    <td>Tecnologia</td> 
-  </tr>
-  <tr>
-    <td>Linguagem de Programação</td>
-    <td>
-    	<ul>
-    	  <li>PHP</li>
-        <li>JavaScript</li>
-    	</ul>
-    </td>
-  </tr>
-<tr>
-    <tr>
-    <td>Tecnologia WEB</td>
-    <td>
-    	<ul>
-    	  <li>HTML</li>
-        <li>CSS</li>
-        <li>Bootstrap</li>
-    	</ul>
-    </td>
-  </tr>
-<tr>
-    <td>ID</td>
-    <td>
-    	<ul>
-    	  <li>Sublime Text 2</li>
-        <li>CSS</li>
-        <li>Bootstrap</li>
-    	</ul>
-    </td>
-  </tr>
-<tr>
-    <td>Servidor WEB</td>
-    <td>
-    	<ul>
-    	  <li>Hostinger</li>
-    	</ul>
-    </td>
-</tr>
-</table>
-
-<h2>5. PROCEDIMENTO E ALTERAÇAO DE CONFIGURAÇÃO DO AMBIENTE</h2>
-
-<p>Projeto foi feito com base em PHP, pelo conhecimento dos membros do grupo.
-Parte visual foi usado HTML, CSS3 e Bootstrap, pela sua fácil adesão e modifição.
-Hospedagem feita no hostinger, por já ter sido usado antes por membros do grupo.</p>
-
-<h2>6. ATIVIDADES REALIZADAS NO PERÍODO</h2>
-
-<h4>Nessa liberação foram contemplados os seguintes itens:</h4>
-
-<table style="width:100%">
-<tr>
-    <td>Cód</td>
-    <td>Título</td>
-    <td>Tarefa</td>
-    <td>Situação</td>
-    <td>Observação</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Maximizar</td> 
-    <td>Montar a Tabela Simplex, e possibilitar o usuário a maximizar modelos de simplex com sistemas lineares.</td>
-    <td>Concluído</td>
-    <td>Apenas restrições de “<=”</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Minimizar</td> 
-    <td>Montar a Tabela Simplex, e possibilitar o usuário a maximizar modelos de simplex com sistemas lineares.</td>
-    <td>Concluído</td>
-    <td>Apenas restrições de “<=”</td>
-  </tr>
-<tr>
-    <td>3</td>
-    <td>Adição de restrições</td> 
-    <td>Possibilitar o usuário a adicionar inputs para maiores números de restrições.</td>
-    <td>Concluído</td>
-    <td></td>
-</tr>
-<tr>
-    <td>4</td>
-    <td>Demonstrar passo a passo</td> 
-    <td>Demonstrar ao usuário as alterações na tabela causada pelas iterações do método simplex.</td>
-    <td>Concluído</td>
-    <td></td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>Tabela de Sensibilidade</td> 
-    <td>Demonstrar ao usuárioa tabela de sensibilidade.</td>
-    <td>Pendente</td>
-    <td>Conforme orientação do professor, aplicação apresenta resultados incorretos.</td>
-</tr>
+|Cód|Título|Tarefa|Situação|Observação|
+|---|----------|----------------|---------------------|-----------------|                                                                            	
+|1|Maximizar|Montar a Tabela Simplex, e possibilitar o usuário a maximizar modelos de simplex com sistemas lineares.| Concluído|Apenas restrições de “<=”|
+|2|Minimizar|Montar a Tabela Simplex, e possibilitar o usuário a minimizar modelos de simplex com sistemas lineares.|   Concluído|Apenas restrições de “<=”|
+|3|Adição de restrições|Possibilitar o usuário a adicionar inputs para maiores números de restrições.                           	|Concluído||
+|4|Demonstrar passo a passo|Demonstrar ao usuário as alterações na tabela causada pelas iterações do método simplex.| Concluído||
+|5|Tabela de Sensibilidade|Demonstrar ao usuário tabela de sensibilidade.|Concluído||
+|6|Knapsack (Mochila)|Módulo para uso completo de Knapsack (Algorítimo para solução do Problema da Mochila).|Concluído||
  
