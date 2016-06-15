@@ -1,5 +1,11 @@
 # NOTA DE LIBERAÇÃO - SIMPLEX E MOCHILA
 
+## Informações adicionais na Wiki
+
+<a href="https://github.com/mahefema/Simplex/wiki/Nota-Libera%C3%A7%C3%A3o">Nota Liberação</a><br/>
+<a href="https://github.com/mahefema/Simplex/wiki/Manual-Simplex">Manual Simplex</a><br/>
+<a href="https://github.com/mahefema/Simplex/wiki/Manual-Mochila">Manual Mochila</a>
+
 ## Nome dos Itegrantes do Grupo
 
 1. Maycon Henrique Ferreira Martins, RA: 537640
