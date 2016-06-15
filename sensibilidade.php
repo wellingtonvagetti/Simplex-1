@@ -106,8 +106,8 @@ $aux2= 1;
 //calculando  o limite minimo e maximo
 for ($coluna=($_SESSION['qtdevariaveis']+1); $coluna < ($_SESSION['qtdecolunas']-1) ; $coluna++)
 {
-  $minima=999999999;
-  $maxima=-999999999;
+  $minima=9999999;
+  $maxima=-9999999;
   for ($linha=1; $linha < ($_SESSION['qtdelinhas']-1); $linha++)
   {
     $b = ($tabelafinal[$linha][$_SESSION['qtdecolunas']-1]);
@@ -118,6 +118,7 @@ for ($coluna=($_SESSION['qtdevariaveis']+1); $coluna < ($_SESSION['qtdecolunas']
     {
       //calculo
       $deltas[$linha-1][$aux]   =   (round(((($b*-1)/$f)),0)+$vlrb);
+
     }else{
       $deltas[$linha-1][$aux]=0+$vlrb; 
     }
@@ -138,7 +139,7 @@ for ($coluna=($_SESSION['qtdevariaveis']+1); $coluna < ($_SESSION['qtdecolunas']
   $aux2++;
 }
 
-$conteudo=$conteudo.'<h3><strong>Limites</strong></h1><br>';
+$conteudo=$conteudo.'<h3><strong>Limites</strong></h3><br>';
 $conteudo=$conteudo.'<p><strong>Limite Mínimo :</strong> Indica o menor valor que cada variável(recurso) pode assumir, considerando que todas as outras não se alterem para que a solução contenue viável.</p>';
 $conteudo=$conteudo.'<p><strong>Limite Máximo :</strong> Indica o maior valor que cada variável(recurso)  pode assumir, considerando que todas as outras não se alterem para que a solução continue viável. </p><br><br>';
 
@@ -163,11 +164,14 @@ for ($coluna=($_SESSION['qtdevariaveis']+1); $coluna < ($_SESSION['qtdecolunas']
       $conteudo=$conteudo.($b*-1).' /  '.$f.' + '.$vlrb.' = '.  (round(((($b*-1)/$f)),2)+$vlrb).'<br>';
     }
   }
+
   $lmax[$aux].'</strong><br>';
   $conteudo=$conteudo.'<br><hr>';
   $aux++;    
   $aux2++;
 }
+
+$conteudo=$conteudo.'<br/><br/><h4> Se o valor de Sombra for 0, o valor minimo e máxiimo serão mostrados os valores iniciais</h4>';
 
 //adiciona na 3 coluna da tabela preço sombra os limites minimos
 for ($linha=0; $linha <count($lmin) ; $linha++)
